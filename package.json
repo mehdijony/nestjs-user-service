@@ -1,0 +1,78 @@
+{
+    "name": "@mehdijony/nestjs-user-service",
+    "version": "1.0.0",
+    "description": "Plug-and-play user service for NestJS. Interactive CLI wizard sets up authentication, database, ORM, REST/GraphQL/gRPC, OAuth, OTP, 2FA, RBAC, Redis, and Docker inside your existing project.",
+    "keywords": [
+        "nestjs",
+        "user-service",
+        "authentication",
+        "auth",
+        "oauth",
+        "jwt",
+        "prisma",
+        "typeorm",
+        "mongoose",
+        "otp",
+        "2fa",
+        "rbac",
+        "graphql",
+        "grpc",
+        "redis"
+    ],
+    "homepage": "https://github.com/mehdijony/nestjs-user-service#readme",
+    "bugs": {
+        "url": "https://github.com/mehdijony/nestjs-user-service/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mehdijony/nestjs-user-service.git"
+    },
+    "license": "MIT",
+    "author": "mehdijony (https://github.com/mehdijony)",
+    "type": "commonjs",
+    "main": "dist/lib/index.js",
+    "types": "dist/lib/index.d.ts",
+    "bin": {
+        "user-service-setup": "bin/setup.js"
+    },
+    "files": [
+        "dist/",
+        "bin/",
+        "src/templates/",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node src/setup/index.ts",
+        "prepublishOnly": "npm run build",
+        "test": "jest",
+        "lint": "eslint src/**/*.ts"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^11.0.0",
+        "ejs": "^3.1.9",
+        "figlet": "^1.6.0",
+        "fs-extra": "^11.1.0",
+        "inquirer": "^8.2.5",
+        "ora": "^5.4.1"
+    },
+    "devDependencies": {
+        "@types/ejs": "^3.1.5",
+        "@types/fs-extra": "^11.0.4",
+        "@types/inquirer": "^9.0.9",
+        "@types/node": "^20.19.39",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "^10.0.0",
+        "@nestjs/core": "^10.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}

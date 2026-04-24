@@ -1,0 +1,17 @@
+# Don't publish these to npm
+src/
+*.ts
+!src/templates/        ← templates are needed at runtime
+
+tsconfig.json
+.eslintrc*
+.prettierrc*
+jest.config*
+*.test.ts
+*.spec.ts
+coverage/
+.github/
+docs/
+*.log
+.env*
+node_modules/
