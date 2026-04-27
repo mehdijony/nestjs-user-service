@@ -1,6 +1,6 @@
 {
     "name": "@mehdijony/nestjs-user-service",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Plug-and-play user service for NestJS. Interactive CLI wizard sets up authentication, database, ORM, REST/GraphQL/gRPC, OAuth, OTP, 2FA, RBAC, Redis, and Docker inside your existing project.",
     "keywords": [
         "nestjs",
