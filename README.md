@@ -1,6 +1,3 @@
-````markdown
-<div align="center">
-
 # 🚀 @mehdijony/nestjs-user-service
 
 **The most powerful NestJS User Service CLI — install a complete auth system into any NestJS project in minutes.**
@@ -20,6 +17,7 @@
 ```bash
 npx @mehdijony/nestjs-user-service init
 ```
+
 ````
 
 <br/>
@@ -782,3 +780,4 @@ MIT © [Mehdi Jony](https://github.com/mehdijony)
 
 </div>
 ```
+````
