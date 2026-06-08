@@ -18,8 +18,6 @@
 npx @mehdijony/nestjs-user-service init
 ```
 
-````
-
 <br/>
 
 ---
@@ -780,4 +778,3 @@ MIT © [Mehdi Jony](https://github.com/mehdijony)
 
 </div>
 ```
-````
